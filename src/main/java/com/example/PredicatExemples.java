@@ -1,6 +1,9 @@
 package com.example;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class PredicatExemples {
 
@@ -30,6 +33,18 @@ public class PredicatExemples {
         };
 
         System.out.println("manipPredicate : " +pre.test(3));
+
+    }
+
+    static void manipPredicateWithStream() {
+
+        Predicate<Integer> pre = x -> x > 2 ;
+
+        List<Integer> maListe = Arrays.asList(1,2,3,4);
+
+        List<Integer> maNouvelleListe= maListe.stream().filter(pre).collect(Collectors.toList());
+
+        System.out.println("manipPredicateWithStream : " +maNouvelleListe);
 
     }
 }
