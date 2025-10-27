@@ -18,6 +18,10 @@ public class Main {
         FunctionExemples.withStream();
         FunctionExemples.plusieursFunction();
 
+        // Consumer
+        ConsomerExemples.consumerExempleStream();
+        ConsomerExemples.consumerExemple();
+        ConsomerExemples.consumerWithForeEachList();
 
     }
 
