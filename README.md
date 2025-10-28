@@ -1,6 +1,6 @@
 # 💡 Interfaces Fonctionnelles Java — Résumé et Exemples
 
-Ce projet illustre les **principales interfaces fonctionnelles** introduites avec **Java 8** dans le package `java.util.function`.
+Ce projet illustre les **principales interfaces fonctionnelles** introduites avec **Java 17** dans le package `java.util.function`.
 
 Ces interfaces permettent d’écrire du **code plus concis, expressif et fonctionnel** grâce aux **expressions lambda** et aux **méthodes de Stream**.
 
