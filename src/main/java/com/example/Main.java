@@ -23,6 +23,11 @@ public class Main {
         ConsomerExemples.consumerExemple();
         ConsomerExemples.consumerWithForeEachList();
 
+        //Supplier
+        SupplierExemples.retourObject();
+        SupplierExemples.retourString();
+        SupplierExemples.withStream();
+
     }
 
 

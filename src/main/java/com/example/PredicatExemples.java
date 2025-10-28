@@ -34,6 +34,7 @@ public class PredicatExemples {
 
         System.out.println("manipPredicate : " +pre.test(3));
 
+
     }
 
     static void manipPredicateWithStream() {
