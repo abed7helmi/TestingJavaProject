@@ -7,29 +7,33 @@ import java.util.function.Predicate;
 
 public class Main {
     public static void main(String[] args) {
-        // predicat
-        PredicatExemples.manipPredicate();
-        PredicatExemples.manipPredicateWithLambda();
-        PredicatExemples.multiplePredicat();
-        PredicatExemples.manipPredicateWithStream();
+//        // predicat
+//        PredicatExemples.manipPredicate();
+//        PredicatExemples.manipPredicateWithLambda();
+//        PredicatExemples.multiplePredicat();
+//        PredicatExemples.manipPredicateWithStream();
+//
+//        //Function
+//        FunctionExemples.transformStringEnInt();
+//        FunctionExemples.withStream();
+//        FunctionExemples.plusieursFunction();
+//
+//        // Consumer
+//        ConsomerExemples.consumerExempleStream();
+//        ConsomerExemples.consumerExemple();
+//        ConsomerExemples.consumerWithForeEachList();
+//
+//        //Supplier
+//        SupplierExemples.retourObject();
+//        SupplierExemples.retourString();
+//        SupplierExemples.withStream();
+//        //UnaryOperation
+//        UnaryOperationExemples.simple();
+//        UnaryOperationExemples.withStream();
 
-        //Function
-        FunctionExemples.transformStringEnInt();
-        FunctionExemples.withStream();
-        FunctionExemples.plusieursFunction();
-
-        // Consumer
-        ConsomerExemples.consumerExempleStream();
-        ConsomerExemples.consumerExemple();
-        ConsomerExemples.consumerWithForeEachList();
-
-        //Supplier
-        SupplierExemples.retourObject();
-        SupplierExemples.retourString();
-        SupplierExemples.withStream();
-
-        UnaryOperationExemples.simple();
-        UnaryOperationExemples.withStream();
+        //BinaryOperation
+        BinaryOperationExcemples.simple();
+        BinaryOperationExcemples.withStream();
 
     }
 
