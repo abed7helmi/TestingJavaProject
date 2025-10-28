@@ -28,6 +28,9 @@ public class Main {
         SupplierExemples.retourString();
         SupplierExemples.withStream();
 
+        UnaryOperationExemples.simple();
+        UnaryOperationExemples.withStream();
+
     }
 
 
